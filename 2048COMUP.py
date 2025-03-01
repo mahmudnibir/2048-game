@@ -176,7 +176,7 @@ def main():
     while True:
         draw_grid(grid, score, highscore, game_over)  # Draw the grid and UI elements
         if game_over:
-            pygame.time.wait(2000)  # Wait for 2 seconds before quitting the game
+            pygame.time.wait(3000)  # Wait for 2 seconds before quitting the game
             break
         
         for event in pygame.event.get():  # Handle user input events
