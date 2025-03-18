@@ -8,7 +8,7 @@ import os
 pygame.init()
 
 
-console.log("This is not a mobile responsive")
+
 # Constants to define screen size, grid dimensions, tile colors, etc.
 
 WIDTH, HEIGHT = 400, 500                 # Screen width and height in pixels
